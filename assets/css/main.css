@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-image: url('./images/background.jpg');
 }
 
 ol, ul {
@@ -55,6 +56,8 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -70,6 +73,15 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.resume-email {
+	display: flex;
+	flex-direction: row;
+}
+
+.resume-email a {
+	border-bottom: none;
 }
 
 /* Basic */
@@ -100,6 +112,7 @@ input, select, textarea {
 
 	body {
 		background: #ffffff;
+		background-image: image('.');
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2706,27 +2719,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #696969;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #696969;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #696969;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #696969;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #696969;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #696969;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2738,7 +2751,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.75;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
