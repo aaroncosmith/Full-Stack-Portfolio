@@ -3340,3 +3340,9 @@ input, select, textarea {
 			}
 
 		}
+
+	@media (max-width: 400px) { 
+		.resume-email {
+			font-size: 12px;
+		}
+	}
